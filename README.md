@@ -20,7 +20,14 @@ The environment is modeled as a Markov Decision Process (MDP) with:
 
 The goal is to determine the optimal policy—a mapping from states to actions—that maximizes the cumulative reward. This is done using the Policy Iteration algorithm, which iteratively evaluates and improves a policy until convergence.
 
-## POLICY ITERATION ALGORITHM
+## POLICY ITERATION ALGORITHM:
+
+Policy Iteration is a classic method for solving MDPs and consists of two main steps: Policy Evaluation and Policy Improvement, repeated until the policy stabilizes.
+
+### Steps of the Policy Iteration Algorithm:
+
+![image](https://github.com/user-attachments/assets/9f731f3b-cfac-4400-989f-2a3a585465ad)
+
 
 ### Policy Improvement Function:
 ```
